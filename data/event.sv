@@ -19,4 +19,23 @@ initial begin
 		#1 $finish
 end
 
-always	@(ack)
+always @(ack)
+begin
+	$display("ack event emitted");
+end
+
+always	@(empty)begin
+	$display("done event emitted")
+end
+
+always	@(done)begin
+	$display("empty event emittd")
+end
+
+endmodule
+
+	
+ ack event emitted
+ done event emitted
+ ack event emitted
+ done event emitted
