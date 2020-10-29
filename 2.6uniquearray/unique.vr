@@ -1,0 +1,66 @@
+#include <vera_defines.vrh> 
+
+
+class A { 
+  rand integer val; 
+  constraint c_a { 
+    val > 0; 
+  } 
+} 
+
+
+class everything { 
+  rand A refA = new(); 
+  rand integer length; 
+  A mysq[$]; 
+  bit status[]; 
+
+
+  constraint basic { 
+    length > 0; 
+    length < 20; 
+  } 
+
+
+  task pre_randomize(){ 
+    mysq.delete(); 
+    void = assoc_index(DELETE, status); 
+  } 
+
+
+  task post_randomize(){ 
+    integer i; 
+    bit retry; 
+    for (i=0; i<length; i++){ 
+      retry = 1; 
+      while (retry) { 
+        void = refA.randomize(); 
+         
+        if (assoc_index(CHECK, status,refA.val) == 0){ 
+          mysq.insert(i, refA.object_copy()); 
+          retry = 0; 
+          status[mysq[i].val] = 1; 
+        } 
+      } 
+    } 
+  } 
+
+
+  task display(){ 
+    printf("Randomization Length = %0d\n", length); 
+    foreach(mysq, i) 
+      printf("mysq[%0d] = %0d\n", i, mysq[i].val); 
+  } 
+} 
+
+
+program test { 
+  everything e; 
+  e = new(); 
+
+
+  repeat (5) { 
+    void = e.randomize(); 
+    e.display(); 
+  } 
+} 

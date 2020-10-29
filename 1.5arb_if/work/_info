@@ -1,0 +1,89 @@
+m255
+K3
+13
+cModel Technology
+Z0 dB:\Github\Systemverilog\LC3-interface
+varb
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 K4jRGA]f1BCkL:z7UWl1I2
+IDG2eLlM6oVD:Z@T3LkNd02
+Z2 VoCfED22eHhS_];1GgC4z@1
+Z3 !s105 arb_sv_unit
+S1
+Z4 dB:\Github\SV\1.5arb_if
+w1603963149
+Z5 8B:/Github/SV/1.5arb_if/my_version/arb.sv
+Z6 FB:/Github/SV/1.5arb_if/my_version/arb.sv
+L0 6
+Z7 OL;L;10.1c;51
+r1
+!s85 0
+31
+!s108 1603963222.259000
+!s107 B:/Github/SV/1.5arb_if/my_version/arb.sv|
+Z8 !s90 -reportprogress|300|-work|work|-vopt|-sv|B:/Github/SV/1.5arb_if/my_version/arb.sv|
+Z9 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Yarb_if
+R1
+Z10 VKH2FN:`lfFk7eUE?UOz:E0
+r1
+31
+Z11 In3>W2gU3?zVR095n:cT=70
+S1
+R4
+Z12 w1603790521
+Z13 8B:/Github/SV/1.5arb_if/my_version/arb_if.sv
+Z14 FB:/Github/SV/1.5arb_if/my_version/arb_if.sv
+L0 13
+R7
+R9
+Z15 !s100 2AJZ5SKmzNV6Qa86HA0Bc1
+Z16 !s105 arb_if_sv_unit
+Z17 !s90 -reportprogress|300|-work|work|-vopt|-sv|B:/Github/SV/1.5arb_if/my_version/arb_if.sv|
+Z18 !s108 1603961527.699000
+Z19 !s107 B:/Github/SV/1.5arb_if/my_version/arb_if.sv|
+!s85 0
+!i10b 1
+4test
+R1
+Z20 Vk<3<[f=78GX=_HO53D;7>3
+r1
+31
+Z21 I4gYoO7ILzR6?iW3i6=Kbj2
+S1
+R4
+Z22 w1603961681
+Z23 8B:/Github/SV/1.5arb_if/my_version/test.sv
+Z24 FB:/Github/SV/1.5arb_if/my_version/test.sv
+L0 13
+R7
+R9
+!s85 0
+Z25 !s105 test_sv_unit
+Z26 !s90 -reportprogress|300|-work|work|-vopt|-sv|B:/Github/SV/1.5arb_if/my_version/test.sv|
+!i10b 1
+Z27 !s100 <MUaf[P;n:U7OU@JJX2Y60
+Z28 !s108 1603961686.808000
+Z29 !s107 B:/Github/SV/1.5arb_if/my_version/test.sv|
+vtop
+R1
+Z30 Ve:gFW1CKLAXc^T:7k2HoD1
+r1
+31
+Z31 IU@HJ>8<X`G:V3aXd1n>kN2
+S1
+R4
+Z32 w1603789581
+Z33 8B:/Github/SV/1.5arb_if/my_version/top.sv
+Z34 FB:/Github/SV/1.5arb_if/my_version/top.sv
+L0 15
+R7
+R9
+Z35 !s100 RKF1iXMh__NXG86o[M3@k0
+Z36 !s105 top_sv_unit
+Z37 !s90 -reportprogress|300|-work|work|-vopt|-sv|B:/Github/SV/1.5arb_if/my_version/top.sv|
+Z38 !s108 1603961528.088000
+Z39 !s107 B:/Github/SV/1.5arb_if/my_version/top.sv|
+!s85 0
+!i10b 1
